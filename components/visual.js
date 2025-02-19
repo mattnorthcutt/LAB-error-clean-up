@@ -1,6 +1,6 @@
 import { renderToDOM } from '../utils/renderToDom';
 
-const htmlStructure = () => {
+export const htmlStructure = () => {
   const domString = `
     <div id="header-container" class="header mb-3"></div>
     <div id="form-container" class="container mb-3 text-center"></div>
